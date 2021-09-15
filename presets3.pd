@@ -1,0 +1,11 @@
+#N canvas 648 132 323 457 10;
+#X obj 71 53 inlet;
+#X obj 71 82 route bang;
+#X obj 71 111 memolist \$1;
+#X obj 71 171 listbox3 1 1 0 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 2 1;
+#X coords 0 -1 1 1 169 247 1 70 150;
