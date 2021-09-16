@@ -12,7 +12,11 @@ Copyleft 2021 Bruno Faria Rohde – GPLV3 license - http://www.gnu.org/licenses/
 
 ## Visão geral
 
-O COMEMO-PD é um sistema de gestão de parâmetros para patchs de Pure Data (Pd) Vanilla, ou seja, sem dependência de bibliotecas externas. O sistema é composto por abstrações que funcionam de modo interligado, possibilitando receber e enviar dados dos parâmetros de um patch seguindo um padrão simples de comunicação, gerenciar a visualização do estado desses parâmetros em um ou mais objetos na interface, bem como armazenar seus dados em arquivos de texto para recuperação posterior. Um exemplo básico **(EXEMPLO.pd)** é disponibilizado no repositório do projeto e será utilizado como ponto de partida para apresentar seu uso, sem esgotar as configurações possíveis através de diferentes arranjos e da interação com recursos externos. Nas sessões seguintes serão comentadas cada uma das abstrações principais no que se refere a suas propriedades e utilização em contexto.
+O COMEMO-PD é um sistema de gestão de parâmetros para patchs de Pure Data (Pd) Vanilla, ou seja, sem dependência de bibliotecas externas. O pacote é composto por abstrações que funcionam de modo interligado, possibilitando receber e enviar dados dos parâmetros de um patch seguindo um padrão simples de comunicação, gerenciar a visualização do estado desses parâmetros em um ou mais objetos gráficos na interface, bem como armazenar seus dados em arquivos de texto para recuperação posterior.
+
+Exemplos de projetos que utilizam o sistema são o [\[ARRAST_VJ\]](https://github.com/brunorohde/ARRAST_VJ "[ARRAST_VJ]") e [ESMERIL](https://github.com/brunorohde/ESMERIL "ESMERIL"). Durante o desenvolvimento desses projetos surgiu a necessidade de simplificar o processo de implementação e gestão de parâmetros com uma solução própria, dando origem às abstrações que foram então organizadas e documentadas no COMEMO-PD.
+
+Um exemplo básico de uso é disponibilizado no repositório do projeto **(EXEMPLO.pd)** e será utilizado como ponto de partida, sem esgotar as configurações possíveis através de diferentes arranjos e da interação com recursos externos. Nas sessões seguintes serão comentadas cada uma das abstrações principais no que se refere a suas propriedades e utilização em contexto.
 
 A implementação do COMEMO-PD em uma peça ou software em Pd segue procedimentos simples, que podem ser escalados e complexificados de acordo com a necessidade. No patch de exemplo visto na **FIGURA I** estão dispostos os principais módulos de maneira funcional, ilustrando os recursos descritos adiante.
 
