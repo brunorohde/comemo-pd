@@ -2,11 +2,11 @@
 
 ---
 
-Versão 1.0 (setembro 2021)
+Versão 1.1 (maio 2022)
 
 https://github.com/brunorohde/comemo-pd
 
-Copyleft 2021 Bruno Faria Rohde – GPLV3 license - http://www.gnu.org/licenses/gpl.txt
+Copyleft 2022 Bruno Faria Rohde – GPLV3 license - http://www.gnu.org/licenses/gpl.txt
 
 ---
 
@@ -79,3 +79,21 @@ Além das unidades básicas mencionadas acima, com as quais já é possível imp
 - old - arquivo de versões de desenvolvimento do projeto;
 - proto - protótipo do sistema de memória utilizando apenas tabelas de números; contém abstrações que podem ser úteis para armazenamento simplificado de dados numéricos;
 - store - diretório para armazenar memórias e imagens dos patchs de ajuda e exemplos.
+
+
+
+---
+
+
+## VERSÕES
+
+1.1 (05/2022) 
+
+- Atualização para Pd 0.52-2
+- Suporte à inicialização de listas direto no [param] e edição com novo atom box
+
+
+1.0 (09/2021)
+
+- Lançamento do pacote e documentação no Github
+

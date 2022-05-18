@@ -1,53 +1,53 @@
 #N canvas 611 264 584 588 10;
-#X obj 51 126 cnv 15 165 128 \$0-bg \$0-bg_set empty 20 12 0 14 -1
--66577 0;
+#X obj 51 126 cnv 15 165 128 \$0-bg \$0-bg_set empty 20 12 0 14 #000000
+#404040 0;
 #X obj 76 153 bng 15 250 50 0 \$0-click1 \$0-click1_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 96 153 bng 15 250 50 0 \$0-click2 \$0-click2_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 116 153 bng 15 250 50 0 \$0-click3 \$0-click3_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 136 153 bng 15 250 50 0 \$0-click4 \$0-click4_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 156 153 bng 15 250 50 0 \$0-click5 \$0-click5_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 176 153 bng 15 250 50 0 \$0-click6 \$0-click6_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 196 153 bng 15 250 50 0 \$0-click7 \$0-click7_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 56 153 bng 15 250 50 0 \$0-click0 \$0-click0_set empty 17 7
-0 10 -262144 -1 -1;
-#X obj 56 153 cnv 15 15 15 \$0-canvas0 \$0-canvas0_set 0 5 8 0 10 -166441
--66577 0;
-#X obj 76 153 cnv 15 15 15 \$0-canvas1 \$0-canvas1_set 1 5 8 0 10 -262144
--66577 0;
-#X obj 96 153 cnv 15 15 15 \$0-canvas2 \$0-canvas2_set 2 5 8 0 10 -262144
--66577 0;
+0 10 #fcfcfc #000000 #000000;
+#X obj 56 153 cnv 15 15 15 \$0-canvas0 \$0-canvas0_set 0 5 8 0 10 #a0a0a0
+#404040 0;
+#X obj 76 153 cnv 15 15 15 \$0-canvas1 \$0-canvas1_set 1 5 8 0 10 #fcfcfc
+#404040 0;
+#X obj 96 153 cnv 15 15 15 \$0-canvas2 \$0-canvas2_set 2 5 8 0 10 #fcfcfc
+#404040 0;
 #X obj 116 153 cnv 15 15 15 \$0-canvas3 \$0-canvas3_set 3 5 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 136 153 cnv 15 15 15 \$0-canvas4 \$0-canvas4_set 4 5 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 156 153 cnv 15 15 15 \$0-canvas5 \$0-canvas5_set 5 5 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 176 153 cnv 15 15 15 \$0-canvas6 \$0-canvas6_set 6 5 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 196 153 cnv 15 15 15 \$0-canvas7 \$0-canvas7_set 7 5 8 0 10
--262144 -66577 0;
-#X obj 57 131 cnv 15 110 15 \$0-bg2 \$0-bg2_set empty 20 12 0 14 -191407
--66577 0;
-#X symbolatom 57 131 18 0 0 0 - #0-fileName #0-dead;
-#X obj 56 234 bng 15 250 50 0 \$0-load \$0-load_set L 5 8 0 10 -228856
--1 -1;
-#X obj 76 234 bng 15 250 50 0 \$0-save \$0-save_set S 5 8 0 10 -228856
--1 -1;
-#X obj 106 234 bng 15 250 50 0 \$0-clear \$0-clear_set C 5 8 0 10 -228856
--1 -1;
-#X obj 126 234 bng 15 250 50 0 \$0-reset \$0-reset_set R 5 8 0 10 -128992
--1 -262144;
-#X obj 176 234 bng 15 250 50 0 \$0-dump \$0-dump_set D 5 8 0 10 -228856
--1 -1;
-#X obj 156 234 bng 15 250 50 0 \$0-edit \$0-edit_set E 5 8 0 10 -228856
--1 -1;
+#fcfcfc #404040 0;
+#X obj 57 131 cnv 15 110 15 \$0-bg2 \$0-bg2_set empty 20 12 0 14 #b8b8b8
+#404040 0;
+#X symbolatom 57 131 18 0 0 0 - \$0-fileName \$0-dead 0;
+#X obj 56 234 bng 15 250 50 0 \$0-load \$0-load_set L 5 8 0 10 #dcdcdc
+#000000 #000000;
+#X obj 76 234 bng 15 250 50 0 \$0-save \$0-save_set S 5 8 0 10 #dcdcdc
+#000000 #000000;
+#X obj 106 234 bng 15 250 50 0 \$0-clear \$0-clear_set C 5 8 0 10 #dcdcdc
+#000000 #000000;
+#X obj 126 234 bng 15 250 50 0 \$0-reset \$0-reset_set R 5 8 0 10 #7c7c7c
+#000000 #fcfcfc;
+#X obj 176 234 bng 15 250 50 0 \$0-dump \$0-dump_set D 5 8 0 10 #dcdcdc
+#000000 #000000;
+#X obj 156 234 bng 15 250 50 0 \$0-edit \$0-edit_set E 5 8 0 10 #dcdcdc
+#000000 #000000;
 #X obj 51 425 r \$0-out;
 #X obj 51 444 t a a;
 #X obj 51 463 spigot 1;
@@ -831,14 +831,14 @@ lista entre os slots - Sintaxe: comando origem destino(s) - ex:;
 #N canvas 5 61 373 243 LISTMAKER 0;
 #X obj 147 110 list prepend;
 #X obj 147 129 list;
-#X obj 238 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 238 94 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 37 47 inlet TRIGGER;
 #X obj 147 47 inlet LIST;
 #X obj 238 47 inlet RESET;
 #X obj 126 148 list;
-#X obj 126 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 126 94 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 126 177 outlet LIST;
 #X connect 0 0 1 0;
 #X connect 1 0 0 1;
@@ -915,14 +915,14 @@ lista entre os slots - Sintaxe: comando origem destino(s) - ex:;
 #N canvas 5 61 373 243 LISTMAKER 0;
 #X obj 147 110 list prepend;
 #X obj 147 129 list;
-#X obj 238 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 238 94 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 37 47 inlet TRIGGER;
 #X obj 147 47 inlet LIST;
 #X obj 238 47 inlet RESET;
 #X obj 126 148 list;
-#X obj 126 94 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 126 94 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 126 177 outlet LIST;
 #X connect 0 0 1 0;
 #X connect 1 0 0 1;
@@ -983,101 +983,101 @@ DESTINO(S) E APAGA SLOT DE ORIGEM), f 38;
 #X obj 197 500 symbol \$5;
 #X text 359 37 1 - [list trim] interno (0-1);
 #X obj 76 173 bng 15 250 50 0 \$0-click9 \$0-click9_set empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 96 173 bng 15 250 50 0 \$0-click10 \$0-click10_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 116 173 bng 15 250 50 0 \$0-click11 \$0-click11_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 136 173 bng 15 250 50 0 \$0-click12 \$0-click12_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 156 173 bng 15 250 50 0 \$0-click13 \$0-click13_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 176 173 bng 15 250 50 0 \$0-click14 \$0-click14_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 196 173 bng 15 250 50 0 \$0-click15 \$0-click15_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 56 173 bng 15 250 50 0 \$0-click8 \$0-click8_set empty 17 7
-0 10 -262144 -1 -1;
-#X obj 56 173 cnv 15 15 15 \$0-canvas8 \$0-canvas8_set 8 5 8 0 10 -262144
--66577 0;
-#X obj 76 173 cnv 15 15 15 \$0-canvas9 \$0-canvas9_set 9 5 8 0 10 -262144
--66577 0;
+0 10 #fcfcfc #000000 #000000;
+#X obj 56 173 cnv 15 15 15 \$0-canvas8 \$0-canvas8_set 8 5 8 0 10 #fcfcfc
+#404040 0;
+#X obj 76 173 cnv 15 15 15 \$0-canvas9 \$0-canvas9_set 9 5 8 0 10 #fcfcfc
+#404040 0;
 #X obj 96 173 cnv 15 15 15 \$0-canvas10 \$0-canvas10_set 10 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 116 173 cnv 15 15 15 \$0-canvas11 \$0-canvas11_set 11 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 136 173 cnv 15 15 15 \$0-canvas12 \$0-canvas12_set 12 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 156 173 cnv 15 15 15 \$0-canvas13 \$0-canvas13_set 13 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 176 173 cnv 15 15 15 \$0-canvas14 \$0-canvas14_set 14 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 196 173 cnv 15 15 15 \$0-canvas15 \$0-canvas15_set 15 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 76 193 bng 15 250 50 0 \$0-click17 \$0-click17_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 96 193 bng 15 250 50 0 \$0-click18 \$0-click18_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 116 193 bng 15 250 50 0 \$0-click19 \$0-click19_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 136 193 bng 15 250 50 0 \$0-click20 \$0-click20_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 156 193 bng 15 250 50 0 \$0-click21 \$0-click21_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 176 193 bng 15 250 50 0 \$0-click22 \$0-click22_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 196 193 bng 15 250 50 0 \$0-click23 \$0-click23_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 56 193 bng 15 250 50 0 \$0-click16 \$0-click16_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 56 193 cnv 15 15 15 \$0-canvas16 \$0-canvas16_set 16 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 76 193 cnv 15 15 15 \$0-canvas17 \$0-canvas17_set 17 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 96 193 cnv 15 15 15 \$0-canvas18 \$0-canvas18_set 18 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 116 193 cnv 15 15 15 \$0-canvas19 \$0-canvas19_set 19 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 136 193 cnv 15 15 15 \$0-canvas20 \$0-canvas20_set 20 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 156 193 cnv 15 15 15 \$0-canvas21 \$0-canvas21_set 21 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 176 193 cnv 15 15 15 \$0-canvas22 \$0-canvas22_set 22 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 196 193 cnv 15 15 15 \$0-canvas23 \$0-canvas23_set 23 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 76 213 bng 15 250 50 0 \$0-click25 \$0-click25_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 96 213 bng 15 250 50 0 \$0-click26 \$0-click26_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 116 213 bng 15 250 50 0 \$0-click27 \$0-click27_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 136 213 bng 15 250 50 0 \$0-click28 \$0-click28_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 156 213 bng 15 250 50 0 \$0-click29 \$0-click29_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 176 213 bng 15 250 50 0 \$0-click30 \$0-click30_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 196 213 bng 15 250 50 0 \$0-click31 \$0-click31_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 56 213 bng 15 250 50 0 \$0-click24 \$0-click24_set empty 17
-7 0 10 -262144 -1 -1;
+7 0 10 #fcfcfc #000000 #000000;
 #X obj 56 213 cnv 15 15 15 \$0-canvas24 \$0-canvas24_set 24 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 76 213 cnv 15 15 15 \$0-canvas25 \$0-canvas25_set 25 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 96 213 cnv 15 15 15 \$0-canvas26 \$0-canvas26_set 26 2 8 0 10
--262144 -66577 0;
+#fcfcfc #404040 0;
 #X obj 116 213 cnv 15 15 15 \$0-canvas27 \$0-canvas27_set 27 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 136 213 cnv 15 15 15 \$0-canvas28 \$0-canvas28_set 28 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 156 213 cnv 15 15 15 \$0-canvas29 \$0-canvas29_set 29 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 176 213 cnv 15 15 15 \$0-canvas30 \$0-canvas30_set 30 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 196 213 cnv 15 15 15 \$0-canvas31 \$0-canvas31_set 31 2 8 0
-10 -262144 -66577 0;
+10 #fcfcfc #404040 0;
 #X obj 276 180 loadbang;
 #X obj 276 218 s \$0-lb;
 #X obj 333 237 s \$0-totalSlots;
@@ -1111,131 +1111,23 @@ DO MOVE), f 37;
 #X restore 329 387 pd SWITCH;
 #X obj 156 426 r \$0-autoTrim;
 #X obj 196 234 bng 15 250 50 0 \$0-extras \$0-extras_set + 4 8 0 13
--162280 -262144 -1;
-#N canvas 481 163 488 289 TERMINAL 0;
-#N canvas 1094 165 734 732 SYMBOL_TO_LIST 0;
-#X obj 163 113 list fromsymbol;
-#X obj 163 161 list split 1;
-#X obj 176 199 list;
-#X obj 163 228 sel 32;
-#X text 211 227 CARACTERE 32 = ESPAÇO;
-#X obj 280 324 list prepend;
-#X obj 280 343 list;
-#X obj 259 362 list;
-#X obj 259 591 list prepend;
-#X obj 259 610 list;
-#X obj 232 629 list;
-#X obj 259 496 list tosymbol;
-#X obj 232 200 t b b;
-#X obj 163 74 inlet SYMBOL;
-#X obj 270 74 inlet SEPARATOR;
-#X obj 232 667 outlet LIST;
-#X text 52 23 CONVERTE UM SÍMBOLO EM UMA LISTA DE ELEMENTOS SEPARADOS
-POR UM DELIMITADOR ESCOLHIDO (ESPAÇO POR PADRÃO), f 104;
-#X obj 190 305 spigot;
-#X msg 223 286 1;
-#X msg 196 286 0;
-#X obj 261 247 t b a b;
-#X text 84 282 EVITA REPETIÇÃO QUANDO ENCONTRA O DELIMITADOR SEGUIDO
-DELE MESMO, f 15;
-#X obj 280 286 t a a;
-#X obj 367 305 t a a;
-#X obj 367 324 >= 48;
-#X obj 402 324 <= 57;
-#X obj 367 362 sel 0;
-#X obj 367 343 &&;
-#X text 409 362 IDENITFICA QUANDO CARACTERE NÃO É NÚMERO (0-9),
-f 27;
-#X obj 259 381 t l b b;
-#X text 364 282 IDENTIFICA TIPO DE DADO;
-#X obj 259 515 list prepend;
-#X obj 259 534 route 0 1;
-#X obj 352 496 f;
-#X obj 367 410 f;
-#X obj 163 247 t b b;
-#X obj 367 467 > 0;
-#X obj 190 324 t b b;
-#X msg 422 391 0;
-#X obj 367 448 t f f;
-#X obj 367 429 + 1;
-#X msg 405 477 0;
-#X obj 163 132 t a b b;
-#X obj 349 151 t b b b;
-#X obj 259 572 float;
-#X text 301 572 CONVERTE SÍMBOLOS DE NÚMERO EM NÚMERO;
-#X text 410 429 SE HOUVER ALGUM CARACTERE NÃO NUMÉRICO NO BLOCO É
-SYMBOL, f 29;
-#X text 325 534 SEPARA ENTRE NÚMEROS E SÍMBOLOS;
-#X obj 259 553 symbol;
-#X obj 300 553 symbol;
-#X connect 0 0 42 0;
-#X connect 1 0 3 0;
-#X connect 1 1 2 1;
-#X connect 1 2 12 0;
-#X connect 2 0 1 0;
-#X connect 3 0 35 0;
-#X connect 3 1 20 0;
-#X connect 5 0 6 0;
-#X connect 6 0 5 1;
-#X connect 6 0 7 1;
-#X connect 7 0 29 0;
-#X connect 8 0 9 0;
-#X connect 9 0 8 1;
-#X connect 9 0 10 1;
-#X connect 10 0 15 0;
-#X connect 11 0 31 0;
-#X connect 12 0 10 0;
-#X connect 12 1 7 0;
-#X connect 13 0 0 0;
-#X connect 14 0 3 1;
-#X connect 17 0 37 0;
-#X connect 18 0 17 1;
-#X connect 19 0 17 1;
-#X connect 20 0 2 0;
-#X connect 20 1 22 0;
-#X connect 20 2 18 0;
-#X connect 22 0 5 0;
-#X connect 22 1 23 0;
-#X connect 23 0 24 0;
-#X connect 23 1 25 0;
-#X connect 24 0 27 0;
-#X connect 25 0 27 1;
-#X connect 26 0 34 0;
-#X connect 27 0 26 0;
-#X connect 29 0 11 0;
-#X connect 29 1 43 0;
-#X connect 29 2 33 0;
-#X connect 31 0 32 0;
-#X connect 32 0 48 0;
-#X connect 32 1 49 0;
-#X connect 33 0 31 1;
-#X connect 34 0 40 0;
-#X connect 35 0 2 0;
-#X connect 35 1 17 0;
-#X connect 36 0 33 1;
-#X connect 37 0 7 0;
-#X connect 37 1 19 0;
-#X connect 38 0 34 1;
-#X connect 39 0 36 0;
-#X connect 39 1 34 1;
-#X connect 40 0 39 0;
-#X connect 41 0 33 1;
-#X connect 42 0 1 0;
-#X connect 42 1 8 1;
-#X connect 42 2 43 0;
-#X connect 43 0 5 1;
-#X connect 43 1 41 0;
-#X connect 43 2 38 0;
-#X connect 44 0 8 0;
-#X connect 48 0 44 0;
-#X connect 49 0 8 0;
-#X restore 43 95 pd SYMBOL_TO_LIST;
-#X obj 43 133 route cp mv sw;
-#X obj 43 219 s \$0-cp;
-#X obj 70 200 s \$0-mv;
-#X obj 97 181 s \$0-sw;
-#X obj 124 152 print LISTBOX_TERMINAL;
-#X obj 43 114 list trim;
+#9c9c9c #fcfcfc #000000;
+#X text 359 51 2 - Auto-Save (0-1);
+#X text 359 65 3 - Auto-Load (0-1);
+#X obj 50 25 inlet LIST / EXTERNAL CONTROL;
+#X text 359 93 5 - ID Local (symbol);
+#X msg 333 218 32;
+#X obj 196 131 bng 15 250 50 0 \$0-read \$0-read_set R 5 8 0 10 #dcdcdc
+#fcfcfc #000000;
+#X obj 176 131 bng 15 250 50 0 \$0-write \$0-write_set W 5 8 0 10 #7c7c7c
+#fcfcfc #fcfcfc;
+#N canvas 481 163 464 261 TERMINAL 0;
+#X obj 43 104 route cp mv sw;
+#X obj 43 190 s \$0-cp;
+#X obj 70 171 s \$0-mv;
+#X obj 97 152 s \$0-sw;
+#X obj 124 123 print LISTBOX_TERMINAL;
+#X obj 43 85 list trim;
 #X obj 43 66 r \$0-terminal;
 #X text 41 30 ** GERENCIA DADOS INSERIDOS NO TERMINAL VIRTUAL DE EDIÇÃO
 ;
@@ -1243,36 +1135,34 @@ SYMBOL, f 29;
 #X msg 316 85 vis 1;
 #X obj 316 104 s pd-\$0-EXTRAS;
 #X text 314 128 VISIBILIDADE DA JANELA EXTRAS, f 15;
-#X connect 0 0 6 0;
-#X connect 1 0 2 0;
-#X connect 1 1 3 0;
-#X connect 1 2 4 0;
-#X connect 1 3 5 0;
-#X connect 6 0 1 0;
-#X connect 7 0 0 0;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
+#X connect 0 3 4 0;
+#X connect 5 0 0 0;
+#X connect 6 0 5 0;
+#X connect 8 0 9 0;
 #X connect 9 0 10 0;
-#X connect 10 0 11 0;
 #X restore 329 406 pd TERMINAL;
-#N canvas 882 460 334 108 \$0-EXTRAS 0;
-#X obj 1 1 cnv 15 331 105 empty empty empty 20 12 0 14 -1 -66577 0
-;
-#X obj 6 6 cnv 15 100 95 empty empty empty 20 12 0 14 -162280 -66577
+#N canvas 912 456 334 108 \$0-EXTRAS 0;
+#X obj 1 1 cnv 15 331 105 empty empty empty 20 12 0 14 #000000 #404040
 0;
-#X obj 112 6 cnv 15 215 95 empty empty empty 20 12 0 14 -162280 -66577
+#X obj 6 6 cnv 15 100 95 empty empty empty 20 12 0 14 #9c9c9c #404040
 0;
-#X obj 122 30 cnv 15 170 17 empty empty empty 20 12 0 14 -262144 -66577
+#X obj 112 6 cnv 15 215 95 empty empty empty 20 12 0 14 #9c9c9c #404040
 0;
-#X symbolatom 122 30 28 0 0 0 - #0-terminal_set #0-terminal;
+#X obj 122 30 cnv 15 170 17 empty empty empty 20 12 0 14 #fcfcfc #404040
+0;
 #X obj 301 31 bng 15 250 50 0 \$0-terminal_set \$0-null empty 17 7
-0 10 -262144 -1 -1;
+0 10 #fcfcfc #000000 #000000;
 #X obj 16 16 tgl 15 0 \$0-autoTrim_gui \$0-autoTrim_gui_set empty 5
-8 0 10 -262144 -1 -1 0 1;
+8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 16 56 tgl 15 0 \$0-autoLoad_gui \$0-autoLoad_gui_set empty 17
-7 0 10 -262144 -1 -1 0 1;
+7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 16 36 tgl 15 0 \$0-autoSave_gui \$0-autoSave_gui_set empty 17
-7 0 10 -262144 -1 -1 0 1;
+7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 16 76 tgl 15 0 \$0-autoNext_gui \$0-autoNext_gui_set empty 17
-7 0 10 -262144 -1 -1 0 1;
+7 0 10 #fcfcfc #000000 #000000 0 1;
 #X text 35 75 AUTO NEXT;
 #X text 35 15 AUTO TRIM;
 #X text 120 12 TERMINAL;
@@ -1281,16 +1171,8 @@ SYMBOL, f 29;
 #X text 120 81 SWITCH: sw X Y;
 #X text 35 55 AUTO LOAD;
 #X text 35 35 AUTO SAVE;
+#X listbox 122 30 28 0 0 0 - \$0-terminal_set \$0-terminal 0;
 #X restore 406 330 pd \$0-EXTRAS;
-#X text 359 51 2 - Auto-Save (0-1);
-#X text 359 65 3 - Auto-Load (0-1);
-#X obj 50 25 inlet LIST / EXTERNAL CONTROL;
-#X text 359 93 5 - ID Local (symbol);
-#X msg 333 218 32;
-#X obj 196 131 bng 15 250 50 0 \$0-read \$0-read_set R 5 8 0 10 -228856
--262144 -1;
-#X obj 176 131 bng 15 250 50 0 \$0-write \$0-write_set W 5 8 0 10 -128992
--262144 -262144;
 #X connect 25 0 26 0;
 #X connect 26 0 27 0;
 #X connect 26 1 28 0;
@@ -1307,9 +1189,9 @@ SYMBOL, f 29;
 #X connect 54 0 43 1;
 #X connect 104 0 108 0;
 #X connect 108 0 105 0;
-#X connect 108 1 118 0;
+#X connect 108 1 116 0;
 #X connect 110 0 29 0;
 #X connect 110 0 28 1;
-#X connect 116 0 48 0;
-#X connect 118 0 106 0;
+#X connect 114 0 48 0;
+#X connect 116 0 106 0;
 #X coords 0 -1 1 1 167 145 1 50 110;
