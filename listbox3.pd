@@ -1224,12 +1224,12 @@
 #X obj 99 56 r \$0-dump;
 #X text 37 14 ** ENVIA TODO CONTEÚDO DO [text] PARA SAÍDA;
 #X obj 99 113 s \$0-superList;
-#X obj 99 94 text tolist \$0-listbox;
 #X text 96 137 ENVIA O BANCO TODO COMO LISTA PARA SAÍDA, f 23;
 #X obj 99 75 t b;
-#X connect 0 0 5 0;
-#X connect 3 0 2 0;
-#X connect 5 0 3 0;
+#X obj 99 94 text tolist \$0-listBox;
+#X connect 0 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 2 0;
 #X restore 329 360 pd DUMP;
 #X obj 331 549 outlet SUPERLIST;
 #X connect 25 0 26 0;
