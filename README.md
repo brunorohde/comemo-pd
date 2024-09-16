@@ -2,11 +2,11 @@
 
 ---
 
-Versão 1.1 (maio 2022)
+Versão 1.2 (setembro 2024)
 
 https://github.com/brunorohde/comemo-pd
 
-Copyleft 2022 Bruno Faria Rohde – GPLV3 license - http://www.gnu.org/licenses/gpl.txt
+Copyleft 2024 Bruno Faria Rohde – GPLV3 license – http://www.gnu.org/licenses/gpl.txt
 
 ---
 
@@ -27,9 +27,10 @@ A implementação do COMEMO-PD em uma peça ou software em Pd segue procedimento
 	<img src="store/EXEMPLO.png" alt="EXEMPLO.pd" width="800"> 
 </p>
 
-Uma vez definidos, mesmo que temporariamente, os parâmetros de controle de determinado patch, são necessárias as seguintes etapas básicas, executadas em qualquer ordem: declaração das abstrações \[param] respectivas a cada parâmetro; declaração da abstração \[memo] responsável pela memória do contexto; e padronização dos símbolos internos de envio e recebimento de dados nos elementos gráficos que representam os parâmetros. Utilizando apenas os métodos próprios dessas duas abstrações teremos um sistema funcional capaz do armazenamento de memórias em arquivos de texto, recurso que resolve a questão de memória para composições e patchs simples, de forma similar a outros projetos disponíveis na comunidade.
+Após o download do COMEMO-PD no repositório, o primeiro passo é declarar o pacote de abstrações como dependência em seu projeto, utilizando o objeto \[declare -path comemo-pd], considerando que a pasta baixada se encontra no mesmo diretório do patch. Uma vez definidos, mesmo que temporariamente, os parâmetros de controle do patch em questão, são necessárias as seguintes etapas básicas, executadas em qualquer ordem: declaração das abstrações \[param] respectivas a cada parâmetro; declaração da abstração \[memo] responsável pela memória do contexto; e padronização dos símbolos internos de envio e recebimento de dados nos elementos gráficos que representam os parâmetros. Utilizando apenas os métodos próprios dessas duas abstrações teremos um sistema funcional capaz do armazenamento de memórias em arquivos de texto, recurso que resolve a questão de memória para composições e patchs simples, de forma similar a outros projetos disponíveis na comunidade.
 
-Para além dessa configuração básica, o sistema dispõe ainda de um conjunto de abstrações auxiliares – **\[memopack], \[memounpack], \[memolist], \[listbox] e \[presets]** – que permitem o agrupamento e gestão de memórias dispersas, facilitando especialmente o processo de desenvolvimento de novos softwares em Pd. Nessas situações, é comum que os parâmetros não sejam todos conhecidos de antemão e possam estar dispostos em blocos nas diferentes partes do código. Usando o COMEMO-PD, cada um desses blocos pode ser implementado independentemente a qualquer momento e ter sua memória local integrada num macrossistema de gestão.
+Para além dessa configuração básica, o sistema dispõe ainda de um conjunto de abstrações auxiliares – **\[memopack], \[memounpack], \[memolist], \[listbox], \[presets] e \[paramer]** – que permitem o agrupamento e gestão de memórias dispersas, facilitando especialmente o processo de desenvolvimento de novos softwares em Pd. Nessas situações, é comum que os parâmetros não sejam todos conhecidos de antemão e possam estar dispostos em blocos nas diferentes partes do código. Usando o COMEMO-PD, cada um desses blocos pode ser implementado independentemente a qualquer momento e ter sua memória local integrada num macrossistema de gestão. A última abstração incluída, **[paramer]**, também vem para simplificar a implementação geral do sistema em novos projetos e permitir uma gestão mais flexível dos parâmetros de cada memória, como veremos adiante.
+
 
 ## Abstração \[param]
 
@@ -73,6 +74,13 @@ Além das unidades básicas mencionadas acima, com as quais já é possível imp
 
 - \[presets], \[presets2] e \[presets3]: Como envelope final para o sistema, foram criadas as abstrações \[presets], que apenas empacotam as funcionalidades de um \[memolist] com uma \[listbox] utilizando também o contexto de agrupamento declarado no terceiro argumento dos \[memo]. A utilização de um gestor gráfico de dados [presets] pode ser vista e testada no arquivo **EXEMPLO.pd (FIGURA I)**.
 
+- \[paramer]: Gerador de conjuntos compostos por vários \[param] e o respectivo \[memo], a partir da declaração dos elementos numa lista que pode ser editada e reordenada a qualquer momento, reduzindo muito o trabalho manual de programação a cada vez que novos parâmetros são incluídos no sistema, ou mesmo quando desejamos alterar a ordem de declaração dos mesmos, o que impacta na sequência de inicialização. A utilização do \[paramer] é detalhada e pode ser testada no arquivo de ajuda respectivo, apresentado na **FIGURA V**.
+
+*FIGURA V - Arquivo de ajuda paramer-help.pd que demonstra os detalhes de utilização da abstração \[paramer] para implementação simplificada de estruturas de parâmetros e memórias*
+
+<p align="center">
+	<img src="store/paramer-help.png" alt="paramer-help.pd" width="800">
+</p>
 
 ## Demais pastas (old, proto e store)
 
@@ -86,6 +94,14 @@ Além das unidades básicas mencionadas acima, com as quais já é possível imp
 
 
 ## VERSÕES
+
+1.2 (09/2024)
+
+- Nova abstração [paramer] - gerador de conjuntos de parâmetros e memória a partir de lista que facilita implementação e gestão do sistema
+- Mecanismo para lembrar última pasta navegada ao salvar ou abrir arquivos de memória - [memo] e todos [listbox] atualizados
+- Atualização dos arquivos de ajuda (-help.pd)
+- Atualização da documentação
+
 
 1.1 (05/2022) 
 
