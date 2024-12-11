@@ -42,7 +42,7 @@ Para cada parâmetro de uma composição ou programa em desenvolvimento deve ser
 	<img src="store/param.png" alt="param.pd" height="800">
 </p>
 
-A gestão de elementos gráficos (GUI) que representam os parâmetros permite que sejam utilizadas múltiplas caixas de número em diferentes partes do código interno ou da interface representando o mesmo parâmetro sem conflito e com atualização instantânea em todo o sistema. O mesmo se aplica, evidentemente, a todos os elementos gráficos nativos do Pd, bem como externals que façam uso do mesmo padrão de comunicação via \[send] e \[receive]. Esse é um recurso bastante útil, por exemplo, quando um dado parâmetro precisa ser acessado e exibido de diferentes formas em diferentes partes de uma interface complexa.
+A gestão de elementos gráficos (GUI) que representam os parâmetros permite que sejam utilizadas múltiplas caixas de número em diferentes partes do código interno ou da interface relacionadas ao mesmo parâmetro sem conflito e com atualização instantânea em todo o sistema. O mesmo se aplica, evidentemente, a todos os elementos gráficos nativos do Pd, bem como externals que façam uso do mesmo padrão de comunicação via \[send] e \[receive]. Esse é um recurso bastante útil, por exemplo, quando um dado parâmetro precisa ser acessado e exibido de diferentes formas em diferentes partes de uma interface complexa.
 Um exemplo detalhado do funcionamento pode ser testado no arquivo de ajuda da abstração, correspondente à **FIGURA III**.
 
 *FIGURA III - Arquivo de ajuda param-help.pd que demonstra os detalhes de utilização da abstração \[param], incluindo seus argumentos de inicialização e os métodos locais e remotos para manipulação de dados no sistema*
@@ -54,7 +54,7 @@ Um exemplo detalhado do funcionamento pode ser testado no arquivo de ajuda da ab
 ## Abstração \[memo]
 
 Todas os \[param] de um contexto enviam seus valores para um \[memo] comum, que é um gerenciador de memória indexada utilizando o objeto \[text]. A abstração \[memo] possui métodos locais e remotos que permitem manipular diretamente seu conteúdo, bem como exportar e carregar arquivos com os dados de todos os parâmetros respectivos. Também é possível configurar um sistema simples de presets obtendo, com o método *dump*, uma lista com os dados na saída esquerda da abstração, a qual pode ser armazenada como mensagem simples e aberta posteriormente enviando o conteúdo de volta à entrada esquerda.
-O gerenciador \[memo] normalmente é instanciado junto à declaração dos parâmetros, utilizando até três argumentos: nome da memória, número de parâmetros gerenciados e, opcionalmente, nome do contexto de agrupamento superior. Seu funcionamento detalhado é apresentado no arquivo de ajuda correspondente, que pode ser visto na **FIGURA IV**.
+O gerenciador \[memo] normalmente é instanciado junto à declaração dos parâmetros, utilizando até três argumentos, sendo os dois primeiros obrigatórios: nome da memória, número de parâmetros gerenciados e, opcionalmente, nome do contexto de agrupamento superior. Seu funcionamento detalhado é apresentado no arquivo de ajuda correspondente, que pode ser visto na **FIGURA IV**.
 
 *FIGURA IV - Arquivo de ajuda memo-help.pd que demonstra os detalhes de utilização da abstração \[memo], incluindo seus argumentos de inicialização e os métodos locais e remotos para controle de blocos de memória*
 
@@ -66,7 +66,7 @@ O gerenciador \[memo] normalmente é instanciado junto à declaração dos parâ
 
 Além das unidades básicas mencionadas acima, com as quais já é possível implementar mecanismos de presets eficientes, ao longo do tempo foram desenvolvidos alguns utilitários, listados abaixo, que permitem realizar a gestão de sistemas mais complexos, com diferentes graus e contextos de memória:
 
-- \[memopack] e \[memounpack]: Servem para empacotar e desempacotar, respectivamente, listas com os dados de um conjunto de memórias \[memo], que são informadas através de um lista com seus nomes.
+- \[memopack] e \[memounpack]: Servem para empacotar e desempacotar, respectivamente, listas com os dados de um conjunto de memórias \[memo], que são informadas através de uma lista com seus nomes.
 
 - \[memolist]: Contém um mecanismo de coleta de dados já estabelecido para facilitar a implementação de grupos, e utiliza o terceiro argumento dos módulos \[memo] para defição de um contexto comum de agrupamento.
 
@@ -74,7 +74,7 @@ Além das unidades básicas mencionadas acima, com as quais já é possível imp
 
 - \[presets], \[presets2] e \[presets3]: Como envelope final para o sistema, foram criadas as abstrações \[presets], que apenas empacotam as funcionalidades de um \[memolist] com uma \[listbox] utilizando também o contexto de agrupamento declarado no terceiro argumento dos \[memo]. A utilização de um gestor gráfico de dados [presets] pode ser vista e testada no arquivo **EXEMPLO.pd (FIGURA I)**.
 
-- \[paramer]: Gerador de conjuntos compostos por vários \[param] e o respectivo \[memo], a partir da declaração dos elementos numa lista que pode ser editada e reordenada a qualquer momento, reduzindo muito o trabalho manual de programação a cada vez que novos parâmetros são incluídos no sistema, ou mesmo quando desejamos alterar a ordem de declaração dos mesmos, o que impacta na sequência de inicialização. A utilização do \[paramer] é detalhada e pode ser testada no arquivo de ajuda respectivo, apresentado na **FIGURA V**.
+- \[paramer]: Gerador de conjuntos compostos por vários \[param] e o respectivo \[memo], partindo da declaração dos elementos numa lista que pode ser editada e reordenada a qualquer momento. Essa ferramenta reduz muito o trabalho manual de programação a cada vez que novos parâmetros são incluídos, ou mesmo quando desejamos alterar a ordem de declaração dos mesmos, o que impacta na sequência de inicialização do sistema. A utilização do \[paramer] é detalhada e pode ser testada no arquivo de ajuda respectivo, apresentado na **FIGURA V**.
 
 *FIGURA V - Arquivo de ajuda paramer-help.pd que demonstra os detalhes de utilização da abstração \[paramer] para implementação simplificada de estruturas de parâmetros e memórias*
 
