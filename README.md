@@ -2,11 +2,11 @@
 
 ---
 
-Versão 1.2 (setembro 2024)
+Versão 1.3 (janeiro 2025)
 
 https://github.com/brunorohde/comemo-pd
 
-Copyleft 2024 Bruno Faria Rohde – GPLV3 license – http://www.gnu.org/licenses/gpl.txt
+Copyleft 2025 Bruno Faria Rohde – GPLV3 license – http://www.gnu.org/licenses/gpl.txt
 
 ---
 
@@ -94,6 +94,11 @@ Além das unidades básicas mencionadas acima, com as quais já é possível imp
 
 
 ## VERSÕES
+
+1.3 (01/2025)
+
+- Alteração no mecanismo de transições: acionado apenas quando carrega presets; qualquer mudança na interface cancela transição no parâmetro
+
 
 1.2 (09/2024)
 
