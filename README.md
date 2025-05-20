@@ -21,7 +21,7 @@ Dois exemplos de uso do sistema são disponibilizados no repositório do projeto
 *FIGURA 1 - Patch EXEMPLO_SIMPLES.pd que demonstra uma implementação básica do COMEMO-PD com suas principais abstrações*
 
 <p align="center">
-	<img src="doc/store/EXEMPLO_SIMPLES.png" alt="EXEMPLO_SIMPLES.pd" width="800"> 
+	<img src="doc/store/EXEMPLO_SIMPLES.png" alt="EXEMPLO_SIMPLES.pd" width="400"> 
 </p>
 
 A implementação de COMEMO-PD em um patch segue procedimentos simples, que podem ser escalados e complexificados de acordo com a necessidade. Após o download da biblioteca no repositório, o primeiro passo é declará-la como dependência utilizando o objeto \[declare -path comemo-pd], considerando que a pasta baixada se encontra no mesmo diretório do patch. A seguir, uma vez definidos os parâmetros de controle utilizados, são necessárias as seguintes etapas, executadas em qualquer ordem: declaração das abstrações \[param] respectivas a cada parâmetro; declaração da abstração \[memo] responsável pela memória do contexto; e padronização dos símbolos internos de envio e recebimento de dados nos elementos gráficos (GUI) que representam os parâmetros. Utilizando apenas os métodos próprios dessas duas abstrações, já teremos um sistema funcional capaz do armazenamento de cenas em objetos \[list] ou arquivos de texto.
